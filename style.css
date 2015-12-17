@@ -1,3 +1,10 @@
+.swing-girl {
+  position:fixed;
+  top: 0px;
+  right: 0px;
+  height: 75%;
+}
+
 body {
-  background: #D5DFEB url(swing.jpg) no-repeat right bottom;
+  background-color: #c0e8df;
 }
