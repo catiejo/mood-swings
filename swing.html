@@ -4,17 +4,23 @@
   <title>Mood Swings</title>
   <link href='https://fonts.googleapis.com/css?family=Black+Ops+One' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </head>
 <body>
   <h1 class="tip-top">Mood Swings</h1>
-  <p>Today, I feel...</p>
+  <h3>Today, I feel...</h3>
   <img class="swing-girl" src="girl.png">
   <div class="moods">
-    <ul>
-      <li class="button"><strong>Awful!</strong></li>
-      <li class="button"><strong>Ok!</strong></li>
-      <li class="button"><strong>Awesome!</strong></li>
+    <ul class="mooods">
+      <li class="button" id="awful"><strong>Awful!</strong></li>
+      <li class="button" id="ok"><strong>Ok!</strong></li>
+      <li class="button" id="awesome"><strong>Awesome!</strong></li>
     </ul>
   </div>
+  <div class="log">
+    <h3>In the past, I felt...</h3>
+    <p></p>
+  </div>
+  <script type="text/javascript" src="scripts.js"></script>
 </body>
 </html>

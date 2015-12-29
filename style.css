@@ -16,16 +16,21 @@ body {
 
 .moods li {
   display: inline;
+  opacity: 0.5;
+}
+
+.mooods {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button {
     height: 60px;
     width: 100px;
     border-radius: 5px;
-    background-color: black;
+    border: 10px;
+    background-color: #ae4f9d;
     text-align: center;
     color: #FFFFFF;
     font-family: Verdana, Arial, Sans-Serif;
-    margin-left: auto;
-    margin-right: auto;
 }
