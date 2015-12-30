@@ -14,9 +14,8 @@ body {
   background-color: #c0e8df;
 }
 
-.moods li {
-  display: inline;
-  opacity: 0.5;
+.moods div {
+  display: inline-block;
 }
 
 .mooods {
@@ -25,12 +24,13 @@ body {
 }
 
 .button {
-    height: 60px;
-    width: 100px;
-    border-radius: 5px;
-    border: 10px;
-    background-color: #ae4f9d;
-    text-align: center;
-    color: #FFFFFF;
-    font-family: Verdana, Arial, Sans-Serif;
+  opacity: 0.5;
+  width: 100px;
+  height: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #ae4f9d;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: Verdana, Arial, Sans-Serif;
 }
