@@ -24,13 +24,16 @@ body {
 }
 
 .button {
-  opacity: 0.5;
   width: 100px;
   height: 20px;
   padding: 5px;
   border-radius: 5px;
-  background-color: #ae4f9d;
+  background-color: #E88AB1;
   text-align: center;
   color: #FFFFFF;
   font-family: Verdana, Arial, Sans-Serif;
+}
+
+.purple {
+  background-color: #ae4f9d;
 }

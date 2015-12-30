@@ -1,19 +1,19 @@
 var main = function() {
   $('#awful').mouseenter(function() {
-      $('#awful').fadeTo('fast', 1);
+      $('#awful').addClass('purple');
   });
   $('#awful').mouseleave(function() {
-      $('#awful').fadeTo('fast', 0.5);
+      $('#awful').removeClass('purple');
   });
   $('#awful').click(function() {
       $('.log p').prepend("awful.<br>");
   });
 
   $('#ok').mouseenter(function() {
-      $('#ok').fadeTo('fast', 1);
+      $('#ok').addClass('purple');
   });
   $('#ok').mouseleave(function() {
-        $('#ok').fadeTo('fast', 0.5);
+        $('#ok').removeClass('purple');
   });
   $('#ok').click(function() {
       $('.log p').prepend("ok.<br>");
@@ -21,10 +21,10 @@ var main = function() {
 
 
   $('#awesome').mouseenter(function() {
-      $('#awesome').fadeTo('fast', 1);
+      $('#awesome').addClass('purple');
   });
   $('#awesome').mouseleave(function() {
-        $('#awesome').fadeTo('fast', 0.5);
+        $('#awesome').removeClass('purple');
   });
   $('#awesome').click(function() {
       $('.log p').prepend("awesome.<br>");
